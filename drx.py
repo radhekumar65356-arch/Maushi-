@@ -20,11 +20,11 @@ def load_config():
         with open("config.json", "r") as f:
             return json.load(f)
     else:
-        return {"8532043863:AAFCaJl3ArWu1RtA2D03BOqmjnes-a2ZUpc": "", "6097547199": []}
+        return {"8922037345:AAGNntY8lo3g0K_zW_WLpyXNIklsinoyxZw": "", "6995194591": []}
 
 config = load_config()
-TOKEN = config.get("8532043863:AAFCaJl3ArWu1RtA2D03BOqmjnes-a2ZUpc") #
-ADMIN_IDS = config.get("6097547199") #
+TOKEN = config.get("8922037345:AAGNntY8lo3g0K_zW_WLpyXNIklsinoyxZw") #
+ADMIN_IDS = config.get("6995194591") #
 
 # --- [ 2. BOT INITIALIZATION ] ---
 # Token load hone ke baad bot ko start karo
